@@ -8,6 +8,7 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 
@@ -78,6 +79,8 @@ span {
 
 
 /* menu section */
+
+
 
 .row {
     height: 950px;
@@ -187,7 +190,7 @@ span {
 
     margin-right: 10%;
     color: white;
-    height: 330px;
+    height: 400px;
     background-color: rgb(97, 50, 17);
     width: 100%;
 
@@ -217,7 +220,7 @@ span {
     justify-content: center;
     align-items: center;
     margin: 0 10px;
-    background-color: white
+    background-color: whitesmoke;
 }
 
 .icon i {
@@ -272,10 +275,100 @@ footer {
 }
 
 
-/* 
 
-#divreview{
-    height: 500px;
-    width: 100%;
-    background-color:rgba(0, 0, 0, 0.779);
-} */
+
+
+
+/* media for quotes */
+@media(max-width:600px){
+    .container{
+        margin-top: 10px;
+        
+    }
+    
+    }
+    
+    @media(max-width:800px){
+        .container{
+            margin-bottom: 200px;
+            margin-top: 10px;
+
+        }
+        }
+
+
+/* media for menu */
+
+@media(max-width:600px){
+    #menu{
+        margin-top: 100px;
+        
+    }
+
+    .row{
+        height: 2800px;
+    }
+
+    
+    }
+    
+    @media(max-width:800px){
+        #menu{
+            
+            margin-top: 100px;
+
+        }
+        .row{
+            height: 2800px;
+            
+        }
+
+
+        }
+
+        /* media deliver section */
+
+
+        @media(max-width:600px){
+            #delivery{
+                margin-top: 40px;
+                margin-bottom: 40px;
+                
+            }
+    
+            }
+
+
+
+
+/* media about section */
+
+@media(max-width:600px){
+    #about{
+        margin-top: 20px;
+    }
+    
+    }
+    
+    @media(max-width:800px){
+        #about{
+            margin-top: 400px;
+        }
+        }
+
+
+
+/* media contact section */
+
+@media(max-width:600px){
+#contact{
+    margin-top: 250px;
+}
+
+}
+
+@media(max-width:800px){
+    #contact{
+        margin-top: 450px;
+    }
+    }
