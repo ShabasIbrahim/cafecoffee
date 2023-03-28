@@ -1,0 +1,281 @@
+/* font links */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Comfortaa:wght@300&family=Dancing+Script:wght@600&family=Nunito:wght@200&family=Poppins:wght@100&family=Tajawal:wght@200&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Comfortaa&family=Dancing+Script:wght@600&family=Nunito:wght@200&family=Poppins:wght@100&family=Rubik+Iso&family=Tajawal:wght@200&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Comfortaa&family=Dancing+Script:wght@600&family=Nunito:wght@200&family=Pacifico&family=Poppins:wght@100&family=Rubik+Iso&family=Tajawal:wght@200&family=Tilt+Prism&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+h1 {
+    font-size: 50px;
+    /* color:rgb(17, 16, 16); */
+
+
+}
+
+span {
+    color: white;
+    font-weight: bold;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 25px;
+
+}
+/* heading fonts specs */
+
+#chead1 {
+    font-size: 80px;
+    color: maroon;
+    font-weight: bold;
+}
+
+
+#chead2 {
+    font-size: 80px;
+
+}
+
+#chead3 {
+    font-size: 80px;
+
+}
+
+
+#cp {
+    font-size: 30px;
+    color: dimgrey;
+    font-family: 'Dancing Script', cursive
+}
+
+
+/* quotes section */
+
+#quotes {
+
+    height: 500px;
+    background-color: white;
+}
+
+
+
+#quote {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive
+}
+
+/* outlet side head */
+#offcanvasWithBothOptionsLabel {
+    color: burlywood;
+    font-weight: bolder;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+/* menu section */
+
+.row {
+    height: 950px;
+    /* background-color: rgba(199, 170, 121, 0.229); */
+    background-color: rgba(74, 61, 39, 0.803);
+    border-radius: 50px;
+}
+
+#menuheading {
+    /* color: rgba(9, 9, 9, 0.527); */
+    color: antiquewhite;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 10px;
+
+}
+
+#menusub {
+    font-family: 'Pacifico', cursive;
+}
+
+.card {
+    background-color: rgba(167, 143, 101, 0.892);
+    border-radius: 25px;
+    border: 1px solid;
+}
+
+
+
+/* images */
+
+#carouselExampleCaptions {
+    margin-top: 20px;
+    height: 750px;
+    width: 100%;
+}
+
+#imghead1 {
+    font-size: 50px;
+    color: antiquewhite;
+    font-family: 'Pacifico', cursive;
+}
+
+
+#imghead2 {
+    font-size: 50px;
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+
+
+#imghead3 {
+    font-size: 50px;
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+
+#imghead4 {
+    font-size: 50px;
+    color: rgb(241, 239, 239);
+    font-family: 'Pacifico', cursive;
+}
+
+
+
+
+
+#deliver {
+    /* height: 547px; */
+    margin-top: 20px;
+    height: 600px;
+    background-color: white
+}
+
+#deliveryhead {
+    color: burlywood;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+#aboutcontent {
+    height: 325px;
+    background-color: white;
+    
+}
+
+#aboutheading {
+    color: burlywood;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+
+
+
+/* icons div */
+
+
+#contact {
+    margin-top: 20%;
+    text-align: center;
+
+    margin-right: 10%;
+    color: white;
+    height: 330px;
+    background-color: rgb(97, 50, 17);
+    width: 100%;
+
+}
+
+#reachhead {
+    font-family: 'Comfortaa', cursive;
+
+
+}
+
+
+
+.icon-div {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    background-color: white
+}
+
+.icon i {
+    font-size: 20px;
+}
+
+/* for change color when we move the cursor to icon */
+.icon:hover {
+    background-image: linear-gradient(180deg, red, yellow);
+
+
+}
+
+footer {
+    margin-top: 2rem;
+
+    font-family: 'Comfortaa', cursive;
+}
+
+.up-arrow {
+
+    /* here float is used for move icon to right */
+    float: right;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    /* here flex is used for arrange arrow icon to center */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* here margin is to align icon and border */
+    margin: 1rem 2rem;
+    font-weight: bolder;
+    background-color: gray;
+
+
+}
+
+/* for designing scroll bar  */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(240, 255, 255, 0.601);
+    border-radius: 10px;
+}
+
+
+/* 
+
+#divreview{
+    height: 500px;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.779);
+} */

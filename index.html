@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESTAURANT</title>
+    <link rel="shortcut icon" href="./download.png" type="image/x-icon">
+
+    <!-- BOOSTRATP LINK -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CSS link -->
+
+    <link rel="stylesheet" href="./Hotel.css">
+
+    <!-- font awsome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+
+<body>
+
+
+    <section id="home">
+
+        <nav id="navbar" class="navbar navbar-expand-lg bg-danger fixed-top ">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#"> <span>Cafe CoFFee</span> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- here ms is used for margin start -->
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Our Menu</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#delivery">We deliver</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!-- carrousel bar -->
+
+
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                    <img height="700px" src="./img/top-view-roasted-coffee-beans.jpg" class="d-block w-100"
+                        alt="no img">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 id="chead1">CaFe CoFFee</h5>
+                        <p id="cp">" Taste The Uniqueness "</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img height="700px" src="./img/farming-6959638_960_720.jpg" class="d-block w-100" alt="no img">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 id="chead2">From Our Own Estate</h5>
+                        <p></p>
+                    </div>
+
+
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+
+                    <img height="700px" src="./img/farmer-g0aeafe884_1920.jpg" class="d-block w-100" alt="no img">
+
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 id="chead3">Traditional Farmers</h5>
+                        <p></p>
+                    </div>
+
+                </div>
+
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img height="700px" src="./img/pexels-tiana-2930969.jpg" class="d-block w-100" alt="no img">
+                </div>
+
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img height="700px" src="./img/michal-parzuchowski-ItaV89TNkks-unsplash.jpg" class="d-block w-100"
+                        alt="no img">
+                </div>
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+    </section>
+
+<br><br><br>
+
+
+
+
+    <!-- quotes -->
+
+    <div class="container">
+        <div id="quotes" class="row">
+
+            <div class="col-md-6">
+                <img class="img-fluid" src="./img/cappucino-removebg-preview.png" alt="no img">
+
+            </div>
+            <div class="col-md-6 mt-5">
+
+                <h1 id="quote" class="text-danger">"More than <br> Just coffeeing"</h1>
+                <hr>
+
+                <p>Our multi-cuisine menu draws inspiration from modern Indian, Italian, Mexican, Japanese, American,
+                    Continental, Thai, South American and Australian cuisines. In a year since inception, <strong>Cafe
+                        CoFFee</strong> has been able to strike the right chord with the young crowd and has also become
+                    popular with the older generation.</p>
+
+                <!-- popover -->
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Locate
+                    Us</button>
+
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                    aria-labelledby="offcanvasWithBothOptionsLabel">
+                    <div class="offcanvas-header">
+                        <h3 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Outlets</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p>
+
+                        <ul>
+                            <li class="mb-3">Calicut <br> Mavoor Road,673620</li>
+                            <hr>
+                            <li class="mb-3">Kochi <br> MG Road,675625</li>
+
+                            <hr>
+                            <li class="mb-3">Kannur <br>Caltex Road,657412</li>
+                            <hr>
+                            <li class="mb-3">Thrissur <br>Thrissur round,657882</li>
+
+                            <hr>
+                            <li class="mb-3">Wayanad <br>Batheri,584567</li>
+                            <hr>
+                            <li class="mb-3">Malapuram <br>MG Road,657584</li>
+                            <hr>
+                            <li class="mb-3">Trivandrum <br>Beach Bay,675254</li>
+                            <hr>
+                            <li class="mb-3">Kasargod <br>Customs Road,655823</li>
+
+                        </ul>
+
+
+
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <hr>
+        </div>
+
+
+    </div>
+
+
+<br><br><br>
+
+
+    <!-- Menu -->
+
+    <Section id="menu">
+
+        <div class="container">
+
+            <div class="row">
+                <h1 id="menuheading" class=" mb-5">Our Signatures</h1>
+                <hr>
+
+                <div class="col-md-4">
+                    <div class="col-6  ms-5  ">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/amcn.jpg" class="card-img-top" alt="No img">
+                            <div class="card-body">
+                                <h5 id="menusub" class="card-title text-center">Americano</h5>
+                                <p class="card-text text-center ">Americano is a type of coffee drink prepared by
+                                    diluting
+                                    an espresso with hot water and brewed coffee with our own speciality.</p>
+                                <a target="_blank"
+                                    href="https://www.swiggy.com/?utm_source=Google-Sok&utm_medium=CPC&utm_campaign=perf_food_nu_google_search_sok_narm_brand_v3_ei_march23_brand_em&gclid=CjwKCAjw_MqgBhAGEiwAnYOAei06i45HGPI6BL9cgnpHEzbiZAk5ZMEu58Zp0LAj_N6MW6kuaOmPxBoCwr8QAvD_BwE"
+                                    class="btn btn-danger w-100">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 ms-5 mt-5 ">
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/caramel frap.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 id="menusub" class="card-title text-center">Caramel Frappe</h5>
+                                <p class="card-text text-center">Caramel Frappé recipe is made with rich caramel flavor
+                                    and
+                                    a hint of
+                                    coffee, blended
+                                    with ice, and topped with caramel</p>
+                                <a target="_blank"
+                                    href="https://www.swiggy.com/?utm_source=Google-Sok&utm_medium=CPC&utm_campaign=perf_food_nu_google_search_sok_narm_brand_v3_ei_march23_brand_em&gclid=CjwKCAjw_MqgBhAGEiwAnYOAei06i45HGPI6BL9cgnpHEzbiZAk5ZMEu58Zp0LAj_N6MW6kuaOmPxBoCwr8QAvD_BwE"
+                                    class="btn btn-danger w-100">Order Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="col-md-4">
+                    <div class="col-md-6 ms-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/11.jpg" class="card-img-top" alt="No img">
+                            <div class="card-body">
+                                <h5 id="menusub" class="card-title text-center">Caramel Latte</h5>
+                                <p class="card-text text-center">Caramel Latte recipe is made with Rainforest Alliance
+                                    Certified™
+                                    espresso,
+                                    steamed
+                                    milk, and a sweet, satisfying caramel flavor.</p>
+                                <a target="_blank"
+                                    href="https://www.swiggy.com/?utm_source=Google-Sok&utm_medium=CPC&utm_campaign=perf_food_nu_google_search_sok_narm_brand_v3_ei_march23_brand_em&gclid=CjwKCAjw_MqgBhAGEiwAnYOAei06i45HGPI6BL9cgnpHEzbiZAk5ZMEu58Zp0LAj_N6MW6kuaOmPxBoCwr8QAvD_BwE"
+                                    class="btn btn-danger w-100">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mt-5 ms-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/mocha frape.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 id="menusub" class="card-title text-center">Mocha Frappe</h5>
+                                <p class="card-text text-center">Made with rich chocolate flavor and a hint of coffee,
+                                    our
+                                    Mocha Frappé
+                                    recipe is
+                                    blended with ice and topped with whipped cream</p>
+                                <a target="_blank"
+                                    href="https://www.swiggy.com/?utm_source=Google-Sok&utm_medium=CPC&utm_campaign=perf_food_nu_google_search_sok_narm_brand_v3_ei_march23_brand_em&gclid=CjwKCAjw_MqgBhAGEiwAnYOAei06i45HGPI6BL9cgnpHEzbiZAk5ZMEu58Zp0LAj_N6MW6kuaOmPxBoCwr8QAvD_BwE"
+                                    class="btn btn-danger w-100">Order Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4">
+                    <div class="col-md-6  me-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/caramel lette.jfif" class="card-img-top" alt="No img">
+                            <div class="card-body">
+                                <h5 id="menusub" class="card-title text-center">Cappuccino</h5>
+                                <p class="card-text text-center">cappuccino is an espresso-based coffee drink that
+                                    originated in Italy
+                                    and is traditionally prepared with steamed milk foam</p>
+                                <a target="_blank"
+                                    href="https://www.swiggy.com/?utm_source=Google-Sok&utm_medium=CPC&utm_campaign=perf_food_nu_google_search_sok_narm_brand_v3_ei_march23_brand_em&gclid=CjwKCAjw_MqgBhAGEiwAnYOAei06i45HGPI6BL9cgnpHEzbiZAk5ZMEu58Zp0LAj_N6MW6kuaOmPxBoCwr8QAvD_BwE"
+                                    class="btn btn-danger w-100">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mt-5 me-5 mb-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/mocha frape.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 id="menusub" class="card-title text-center">Coffee Delight</h5>
+                                <p class="card-text text-center">Cofee delight special coffe made in our own estate
+                                    place
+                                    the crushed
+                                    biscuits in a
+                                    dish.drizzel chocolate sauce</p>
+                                <a target="_blank"
+                                    href="https://www.swiggy.com/?utm_source=Google-Sok&utm_medium=CPC&utm_campaign=perf_food_nu_google_search_sok_narm_brand_v3_ei_march23_brand_em&gclid=CjwKCAjw_MqgBhAGEiwAnYOAei06i45HGPI6BL9cgnpHEzbiZAk5ZMEu58Zp0LAj_N6MW6kuaOmPxBoCwr8QAvD_BwE"
+                                    class="btn btn-danger w-100">Order Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- <div class="col-3">
+
+                <div class="col-6 ms-5 ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/22.jpg" class="card-img-top" alt="No img">
+                        <div class="card-body">
+                            <h5 id="menusub" class="card-title text-center">Mocha Coffee</h5>
+                            <p class="card-text text-center">Mocha is a chocolate-flavoured warm beverage that is a
+                                variant of a
+                                caffè
+                                latte
+                                commonly
+                                served in a glass</p>
+                            <a target="_blank"
+                                href="https://www.swiggy.com/?utm_source=Google-Sok&utm_medium=CPC&utm_campaign=perf_food_nu_google_search_sok_narm_brand_v3_ei_march23_brand_em&gclid=CjwKCAjw_MqgBhAGEiwAnYOAei06i45HGPI6BL9cgnpHEzbiZAk5ZMEu58Zp0LAj_N6MW6kuaOmPxBoCwr8QAvD_BwE"
+                                class="btn btn-danger w-100">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 mt-5 ms-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/33.jpg" class="card-img-top" alt="No img">
+                        <div class="card-body">
+                            <h5 id="menusub" class="card-title text-center">Iced Lette</h5>
+                            <p class="card-text text-center">Our Iced Latte recipe combines espresso with cold whole
+                                milk, mixed
+                                with
+                                your
+                                choice of flavor and cofee</p>
+                            <a target="_blank"
+                                href="https://www.swiggy.com/?utm_source=Google-Sok&utm_medium=CPC&utm_campaign=perf_food_nu_google_search_sok_narm_brand_v3_ei_march23_brand_em&gclid=CjwKCAjw_MqgBhAGEiwAnYOAei06i45HGPI6BL9cgnpHEzbiZAk5ZMEu58Zp0LAj_N6MW6kuaOmPxBoCwr8QAvD_BwE"
+                                class="btn btn-danger w-100">Order Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div> -->
+
+
+            </div>
+        </div>
+
+    </Section>
+
+
+
+
+<br> <br><br><br>
+
+
+
+
+
+
+    <!-- food images -->
+
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img height="700px" src="./img/p1..jpg" class="d-block w-100" alt="no img">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 id="imghead1">Jumbo Chicken Burger</h5>
+                    <p></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img height="700px" src="./img/p2.jpg" class="d-block w-100" alt="no img">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 id="imghead2">Crazy Wraps</h5>
+                    <p></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img height="700px" src="./img/p3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 id="imghead3">Crroisant Choco</h5>
+                    <p></p>
+                </div>
+            </div>
+
+
+
+            <div class="carousel-item">
+                <img height="700px" src="./img/p5.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 id="imghead4">Chocco Trefle</h5>
+                    <p></p>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <img height="700px" src="./img/p4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 id="imghead5">Burger Delight</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+
+
+
+<br><br><br><br>
+
+
+
+
+
+
+
+    <!-- delivery area -->
+
+    <section id="delivery">
+        <div id="deliver" class="row">
+            <div class="col-md-6">
+                <h1 id="deliveryhead">We deliver</h1>
+                <br>
+                <ul>
+                    <div class="li">Calicut</div>
+                    <hr>
+                    <div class="li">Kochi</div>
+                    <hr>
+                    <div class="li">Kannur</div>
+                    <hr>
+                    <div class="li">Thrissur</div>
+                    <hr>
+                    <div class="li">Wayanad</div>
+                    <hr>
+                    <div class="li">Malapuram</div>
+                    <hr>
+                    <div class="li">Trivandrum</div>
+                    <hr>
+                    <div class="li">Kasargod</div>
+
+                </ul>
+
+            </div>
+            <div class="col-6">
+
+                <img class="img-fluid" height="500px" src="./img/CAfe CoFFEE.png" alt="no img">
+            </div>
+            
+            <br><br><br>
+            <hr>
+        </div>
+
+
+
+    </section>
+
+
+
+
+<br><br><br><br>
+
+
+
+    <!-- about content -->
+
+    <section id="about">
+
+        <div id="aboutcontent" class="row">
+            <div class="col-md-6">
+                <img class="img-fluid ms-4" src="./img/Grey Brown Modern Coffee Shop Business Presentation.jpg" alt="">
+
+            </div>
+            <div class="col-md-6">
+                <h1 id="aboutheading">Meet Our Team</h1>
+                <hr>
+                <p class="text ms-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tenetur totam
+                    voluptatum vero
+                    assumenda illum, vel maiores sed, impedit laboriosam placeat aperiam sint ratione cumque officiis
+                    ipsum, earum ab nobis.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eligendi placeat officiis excepturi
+                    recusandae deserunt error blanditiis explicabo maiores eaque tenetur deleniti, sapiente quidem animi
+                    enim, ab, pariatur optio perferendis.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptatibus, impedit officiis
+                    possimus quia alias aperiam non laudantium excepturi blanditiis nesciunt molestias? Fuga perferendis
+                    illum voluptate deserunt accusantium dolor nam?</p>
+            </div>
+            <hr>
+        </div>
+
+
+    </section>
+
+    <!-- <br><br><br><br><br><br><br><br><br><br>
+
+    <section id="review">
+
+        <div id="divreview" class="row">
+            <div class="col-6">
+                <h1 class="text-danger">review</h1>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+
+
+
+
+
+
+                <p>ggdgdgfgfg</p>
+            </div>
+            <div class="col-6">
+                <p>fdgdggrg</p>
+            </div>
+        </div>
+
+
+    </section> -->
+
+
+
+
+
+    <!-- contact section -->
+
+<br><br><br><br><br>
+
+
+
+    <section id="contact">
+
+
+
+
+        <div class="heading">
+            
+            <h2 id="reachhead">Reach us</h2>
+
+        </div>
+        <!-- create a div for giving icons parent div  name is icon-div -->
+        <div class="icon-div">
+
+            <div class="icon">
+                <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+
+            <div class="icon">
+                <a href=""> <i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="icon">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+
+            <div class="icon">
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+
+            </div>
+
+
+        </div>
+
+        <footer>
+            <p style="text-align: center;">&copy;Website 2023 Al right reserved &reg; Shabas ibrahim</p>
+
+        </footer>
+
+        <div class="up-arrow">
+            <a href="#home"><i class="fa-solid fa-arrow-up text-dark "></i></a>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</html>
